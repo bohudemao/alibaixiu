@@ -36,4 +36,4 @@ mongoose.connect('mongodb://localhost:27017/alibaixiu', { useNewUrlParser: true,
 // 路由
 require('./routes')(app);
 // 返回系统监听
-app.listen(3001, () => console.log('服务器启动成功  http://localhost:3001/admin'));
+app.listen(3002, () => console.log('服务器启动成功  http://localhost:3002/admin'));
